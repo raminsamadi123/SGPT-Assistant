@@ -7,7 +7,5 @@ https://platform.openai.com/account/api-keys
 ### Installation
 ```sh
 git clone https://github.com/raminsamadi123/SGPT-Assistant
-
 cd SGPT-Assistant
-
 ./install.sh
