@@ -1,5 +1,5 @@
 #!/bin/bash
-pacman -Syu git mpg123 python-pip
+sudo pacman -Syu git mpg123 python-pip
 pip install langdetect
 cd ~/ && git clone https://aur.archlinux.org/python-gtts.git && makepkg -sif --clean
 
