@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo pacman -Syu git mpg123 python-pip
 pip install langdetect
-cd ~/ && git clone https://aur.archlinux.org/python-gtts.git && makepkg -sif --clean
+cd ~/ && git clone https://aur.archlinux.org/python-gtts.git && cd python-gtts/ && makepkg -sif --clean
 
 echo "
 function chatgpt() {
